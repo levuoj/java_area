@@ -1,0 +1,37 @@
+div { margin: 20px; }
+
+h1 {
+    margin-top: 10vh;
+    font-size: 2.5rem;
+    max-width: 500px;
+    letter-spacing: 3px;
+    text-align: center;
+    line-height: 1.5;
+    font-family: "aakar";
+    text-transform: capitalize;
+    font-weight: 800;
+    color: white;
+}
+span {
+    color: #FF908B;
+}
+form {
+    position: relative;
+    float: left;
+    width: 30px;
+}
+#arrow {
+    position: relative;
+    float: left;
+    left: 300px;
+    width: 30px;
+    height: 30px;
+}
+
+body {
+    width: 100%;
+    min-height: 900px;
+    margin: 3em auto;
+    background: linear-gradient(135deg, rgba(247, 202, 201, 1) 0%, rgba(146, 168, 209, 1) 100%);
+    letter-spacing: 1px;
+}

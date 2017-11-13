@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <display-name>Login Application</display-name>
+    <servlet>
+        <servlet-name>MainMenu</servlet-name>
+        <!--<servlet-class>Module.Authentification.MainMenu</servlet-class>-->
+        <jsp-file>/mainMenu.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MainMenu</servlet-name>
+        <url-pattern>/mainMenu</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Redirecting</servlet-name>
+        <!--<servlet-class>Module.Authentification.MainMenu</servlet-class>-->
+        <jsp-file>/redirecting.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Redirecting</servlet-name>
+        <url-pattern>/redirecting</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>newLink</servlet-name>
+        <jsp-file>/newModuleLink.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>newLink</servlet-name>
+        <url-pattern>/newLink</url-pattern>
+    </servlet-mapping>
+</web-app>
